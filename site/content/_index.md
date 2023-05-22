@@ -1,6 +1,6 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "i55"
+subtitle: Intelligent Creative Services
 image: /img/home-jumbotron.jpg
 blurb:
     heading: Why Kaldi?
