@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Contact List</title>
+  <style>
+    .contact-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .contact {
+      width: 200px;
+      padding: 10px;
+      margin: 10px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .contact img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .contact {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-list">
+    <div class="contact">
+      <img src="contact1.jpg" alt="Contact 1">
+      <h3>John Doe</h3>
+      <p>john@example.com</p>
+      <p>123-456-7890</p>
+    </div>
+    <div class="contact">
+      <img src="contact2.jpg" alt="Contact 2">
+      <h3>Jane Smith</h3>
+      <p>jane@example.com</p>
+      <p>987-654-3210</p>
+    </div>
+    <div class="contact">
+      <img src="contact3.jpg" alt="Contact 3">
+      <h3>Michael Johnson</h3>
+      <p>michael@example.com</p>
+      <p>456-789-0123</p>
+    </div>
+  </div>
+</body>
+</html>
